@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap');
+
+@font-face {
+    font-family: "Space Grotesk";
+    src: url(fonts/SpaceGrotesk[wght].woff2) format("woff2");
+    font-weight: 400;
+    font-feature-settings: "ss02", "ss03", "ss04";
+}
+
+* {
+    transition: all .2s ease;
+}
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #FFE2D6;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Syne", sans-serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 600px;
+}
+
+nav {
+    background-color: #FFE2D6;
+    border-bottom: 1px dashed currentColor;
+}
+
+footer {
+    background-color: #FFE2D6;
+}
+
+a {
+    color: #000;
+    border-bottom: 1px dashed currentColor;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FE6100;
+    border-bottom-color: transparent;
+    text-decoration: none;
+}
+
+/*Morado #785EF0*/
+/*FFE2D6*/
